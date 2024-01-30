@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kidz World</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <!-- Navigation bar -->
     <nav class="navbar">
       <div>
-        <img src="./assets/kw-logo.png" alt="" />
+        <img src="./assets/kw-logo.png" alt="" id="logo"/>
       </div>
       <div id="cart">
         <img src="./assets/cart-icon.png" alt="" />
@@ -28,11 +29,11 @@
       </div>
     </header>
     <!-- Books section -->
-    <div class="book-section">
+    <div class="all-section">
       <div class="section">
         <h2>Discover New Books</h2>
-        <div class="each-container">
-          <div>
+        <div class="each-container" id="book-container">
+          <div class="each-book">
             <div>
               <img class="books" src="./assets/book1.png" alt="" />
               <h3>This was our pact</h3>
@@ -46,7 +47,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-book">
             <div>
               <img
                 class="books"
@@ -64,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-book">
             <div>
               <img class="books" src="./assets/book3.png" alt="" />
               <h3>Matlida</h3>
@@ -78,7 +79,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-book">
             <div>
               <img
                 class="books"
@@ -96,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-book">
             <div>
               <img class="books" src="./assets/book5.png" alt="" />
               <h3>For Young Readers</h3>
@@ -110,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-book">
             <div>
               <img class="books" src="./assets/book6.png" alt="" />
               <h3>Wimpy Kid - DIY</h3>
@@ -130,8 +131,8 @@
       <!-- game section -->
       <div class="section">
         <h2>Discover New Games</h2>
-        <div class="each-container">
-          <div>
+        <div class="each-container" id="games-container">
+          <div class="each-game">
             <div>
               <img class="games" src="./assets/dart-board.png" alt="" />
               <h3>Dart Board</h3>
@@ -145,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-game">
             <div>
               <img class="games" src="./assets/connect-four.png" alt="" />
               <h3>Connect 4</h3>
@@ -159,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-game">
             <div>
               <img class="games" src="./assets/jenga.png" alt="" />
               <h3>Jenga</h3>
@@ -173,7 +174,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-game">
             <div>
               <img class="games" src="./assets/monopoly.png" alt="" />
               <h3>Monopoly</h3>
@@ -193,8 +194,8 @@
       <!-- Craft section -->
       <div class="section">
         <h2>Handmade with love</h2>
-        <div class="each-container">
-          <div>
+        <div class="each-container" id="crafts-container">
+          <div class="each-craft">
             <div>
               <img class="crafts" src="./assets/bookmarks.png" alt="" />
               <h3>Bookmarks</h3>
@@ -208,7 +209,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-craft">
             <div>
               <img class="crafts" src="./assets/birthday-card.png" alt="" />
               <h3>Birthday card</h3>
@@ -222,7 +223,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-craft">
             <div>
               <img class="crafts" src="./assets/stuffed-toy.png" alt="" />
               <h3>Stuffed toys</h3>
@@ -236,7 +237,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="each-craft">
             <div>
               <img class="crafts" src="./assets/dream-catcher.png" alt="" />
               <h3>Dream catcher drawing</h3>
@@ -260,7 +261,7 @@
         <h2>Brought to you by</h2>
         <img src="./assets/krishti.png" alt="" />
       </div>
-      <div class="flex" id="details">
+      <div class="credits" id="details">
         <h3>Manaswini</h3>
         <p>Made with love ♥️ by Kalvian</p>
         <p>Talk to me at manaswini.n@kalvium.community</p>
